@@ -6,13 +6,13 @@
   "description": "Erase CLS by automatically optimizing images.",
   "author": "Estéban Soubiran <esteban@soubiran.dev>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/barbapapazes",
-  "homepage": "https://github.com/barbapapazes/unplugin-images-cls-optimizer",
+  "funding": "https://github.com/sponsors/Barbapapazes",
+  "homepage": "https://github.com/Barbapapazes/unplugin-images-cls-optimizer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/barbapapazes/unplugin-images-cls-optimizer"
+    "url": "https://github.com/Barbapapazes/unplugin-images-cls-optimizer"
   },
-  "bugs": "https://github.com/barbapapazes/unplugin-images-cls-optimizer/issues",
+  "bugs": "https://github.com/Barbapapazes/unplugin-images-cls-optimizer/issues",
   "exports": {
     ".": {
       "types": "./dist/index.d.mts",
