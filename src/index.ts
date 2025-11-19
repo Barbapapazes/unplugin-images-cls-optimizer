@@ -1,4 +1,4 @@
-import type { UnpluginFactory, UnpluginInstance } from 'unplugin'
+import type { UnpluginFactory } from 'unplugin'
 import type { ResolvedConfig } from 'vite'
 import type { Options } from './types.js'
 import { readFile } from 'node:fs/promises'
