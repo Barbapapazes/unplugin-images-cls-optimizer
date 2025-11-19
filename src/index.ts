@@ -16,17 +16,19 @@ export const unpluginFactory: UnpluginFactory<Options | undefined> = (userOption
 
   let resolvedConfig: ResolvedConfig
 
+  const imgTagRegex = /<img\s[^>]*src=["']([^"']+)["'][^>]*>/g
+
   return {
     name: 'unplugin-images-cls-optimizer',
     enforce: 'pre',
     transform: {
       filter: {
         id: /\.(vue)$/,
+        code: imgTagRegex,
       },
       async handler(code) {
         const s = new MagicString(code)
 
-        const imgTagRegex = /<img\s[^>]*src=["']([^"']+)["'][^>]*>/g
         let match = imgTagRegex.exec(code)
 
         if (!match) {
