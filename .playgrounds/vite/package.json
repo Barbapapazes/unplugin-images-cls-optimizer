@@ -8,13 +8,13 @@
   },
   "dependencies": {
     "unplugin-images-cls-optimizer": "link:../..",
-    "vue": "^3.5.34"
+    "vue": "^3.5.41"
   },
   "devDependencies": {
-    "@types/node": "^24.10.0",
-    "@vitejs/plugin-vue": "^6.0.1",
-    "@vue/tsconfig": "^0.8.1",
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
     "typescript": "~5.9.3",
-    "vite": "npm:rolldown-vite@7.2.2"
+    "vite": "npm:rolldown-vite@7.3.1"
   }
 }
