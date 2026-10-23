@@ -14,7 +14,7 @@
     "@types/node": "^24.10.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.8.1",
-    "typescript": "~5.9.3",
+    "typescript": "~7.0.2",
     "vite": "npm:rolldown-vite@7.2.2"
   }
 }
